@@ -1,3 +1,4 @@
+/* Mobile First */
 body {
   background-color: #90CAF9;
 }
@@ -26,7 +27,7 @@ h1 { /* Golden Section Modular Scale */
   padding: 5px 5px 5px 30px;
   text-decoration: none;
   font-family: 'Noto Sans', sans-serif, Verdana;  	
-  font-size: 1.3em;
+  font-size: 1.1em;
   color: white;
   display: block;
   transition: 0.3s;
@@ -57,12 +58,12 @@ img {
   width: 250px;
   height: 140px;	
   display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Create two equal columns that sits next to each other */
 .column {
-  -ms-flex: 50%; /* IE 10 */
-  flex: 50%;
   padding: 0 4px;
 }
 
@@ -78,7 +79,6 @@ img {
   color: black;
   text-align: justify;
   line-height: 1.1;	
-  width: 300px;
 }
 
 p {
@@ -87,6 +87,9 @@ p {
   color: black;
   text-align: justify;
   line-height: 1.1;    
+}
+p a:hover {
+  color: #2962FF;	
 }
 
 @media only screen and (min-width: 768px) {
