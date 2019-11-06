@@ -6,3 +6,6 @@ function openNav() {
 function closeNav() {
   document.getElementById("sidenav").style.width = "0";
 }
+
+// Get the elements with class="column"
+var elements = document.getElementsByClassName("column");

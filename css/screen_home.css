@@ -49,4 +49,47 @@ span {
   font-family: 'Noto Sans', sans-serif, Verdana;  	
   color: #0D47A1;	
   cursor: pointer;
+  float: left;
+  margin: 0 20px 10px 0; 
 }
+
+img {
+  width: 250px;
+  height: 140px;	
+  display: block;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.marg {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-size: 1.2em;
+  color: black;
+  text-align: justify;
+  line-height: 1.1;	
+  width: 300px;
+}
+
+p {
+  margin-bottom: 30px;
+  font-size: 1.2em;
+  color: black;
+  text-align: justify;
+  line-height: 1.1;    
+}
+
+@media only screen and (min-width: 768px) {
+	
+}
+
