@@ -63,11 +63,6 @@ img {
   box-shadow: 4px 4px 2px black;  
 }
 
-img:hover {
-  width: 260x;
-  height: 150px;	
-}
-
 .column {
   padding: 0 4px;
 }
@@ -80,7 +75,7 @@ img:hover {
 .marg {
   margin-top: 100px;
   margin-bottom: 30px;
-  font-size: 1em;
+  font-size: 0.9em;
   color: black;
   text-align: justify;
   line-height: 1.1;	
@@ -88,7 +83,7 @@ img:hover {
 
 p {
   margin-bottom: 30px;
-  font-size: 1em;
+  font-size: 0.9em;
   color: black;
   text-align: justify;
   line-height: 1.1;    
@@ -97,6 +92,11 @@ p a:hover {
   color: #2962FF;	
 }
 
+footer {
+  margin-top: 50px; 	
+  font-size: 0.7em; 
+  text-align: center;	
+}
 @media only screen and (min-width: 768px) {
 	
 }
