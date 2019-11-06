@@ -1,6 +1,6 @@
 /* for side nav that pops out */
 function openNav() {
-  document.getElementById("sidenav").style.width = "250px";
+  document.getElementById("sidenav").style.width = "200px";
 }
 
 function closeNav() {
