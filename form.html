@@ -6,13 +6,15 @@
   <link rel= "icon" href="pics/logo.png">
   <link rel="stylesheet" media="screen" href="css/reset.css" />
   <link rel="stylesheet" media="screen" href="css/screen.css" />
+  <link href="https://fonts.googleapis.com/css?family=McLaren&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
   <script src="js/script.js" async> </script>  
 </head>
 <body>
-  <h1> Order Form </h1>
+  <h1 id="ordertitle"> Order Form </h1>
   <div id="sidenav" class="snav">
     <a href="javascript:void(0)" class="close" onclick="closeNav()">&times;</a>
-    <a href="#">Home Page</a>		
+    <a href="index.html">Home Page</a>		
    	<a href="jewelry.html">Jewelry</a>
     <a href="#">Square-knot Belts</a>	
     <a href="#">Boatswain's Lanyards</a>	
@@ -24,13 +26,57 @@
     <a href="#">Knotting Tutorials</a>
     <a href="#">Library Pages</a>
     <a href="#">Picture Frames</a>
-    <a href="form.html">Order Form</a>		
+    <a href="#">Order Form</a>		
   </div>
   <span onclick="openNav()">&#9776; Menu</span> 
   <h2> Place an order with us today! </h2>
-
-
-
-  <footer>Last updated: </footer>
+  <form method="get" autocomplete="on" action="#null">
+    <div id="formbody">
+	  <fieldset>
+	  <h3> Billing Information </h3>
+	    <div>
+		  <label for="fname">Full Name:</label>
+		</div>
+		<div>
+		  <input type="text" name="fullname">
+		</div>
+		<div>
+		  <label for="email">Email Address:</label>
+		</div>
+		<div>
+		  <input type="text" name="email_field" placeholder="email@email.com">
+		</div>
+		<div>
+		  <label for="address">Address:</label>
+		</div>
+		<div>
+		  <input type="text" name="address" placeholder="321 N. 33rd Street">
+		</div>
+		<div>
+		  <label for="city">City:</label>
+		</div>
+		<div>
+		  <input type="text" name="city" placeholder="Chicago">
+		</div>
+		<div>
+		  <label for="state">State:</label>
+		</div>
+		<div>
+		  <input type="text" name="state" placeholder="Illinois">
+		</div>
+		<div>
+		  <label for="zipcode">Zip Code:</label>
+		</div>
+		<div>
+		  <input type="text" name="dob_field" placeholder="60601">
+		</div>
+		<input type="checkbox" id="shipping" name="shipping"/>
+        <label for="shipping" id="shipping2">Shipping address is same as billing address</label>
+	  </fieldset>
+	</div>
+	<div>
+	  <input id="button" type="submit" value="Continue to Checkout" onclick="AlertPage()">
+	</div>
+  </form>
 </body>
 </html>
