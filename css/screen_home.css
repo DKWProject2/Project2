@@ -79,7 +79,7 @@ img {
   margin-left: 5px;	
   margin-top: 80px;
   margin-bottom: 30px;
-  font-size: 0.9em;
+  font-size: 1em;
   color: black;
   text-align: justify;
   line-height: 1.1;	
@@ -90,7 +90,7 @@ p {
   margin-left: 5px; 	
   margin-bottom: 30px;
   margin-top: 8px;    
-  font-size: 0.9em;
+  font-size: 1em;
   color: black;
   text-align: justify;
   line-height: 1.1;    
@@ -103,5 +103,5 @@ footer {
   margin-top: 50px; 	
   font-size: 0.7em; 
   text-align: center;	
+  margin-bottom: 12px;
 }
-
