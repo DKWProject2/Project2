@@ -55,10 +55,6 @@ img {
   border-radius: 10px;
   box-shadow: 4px 4px 2px black;  
 }
-img:hover {
-  width: 260x;
-  height: 150px;	
-}
 .column {
   padding: 0 4px;
 }
@@ -124,11 +120,9 @@ input, #shipping, #button {
 }
 #button {
   margin-left:250px;
-  display: center-right;
 }
 
 #shipping, #shipping2 {
-  display: center;
   width: 5%;
   line-height: 1.66em;
 }
