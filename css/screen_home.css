@@ -46,6 +46,8 @@ h1 { /* Golden Section Modular Scale */
 }
 
 span {
+  margin-top: 30px;
+  margin-left: 5px;  
   font-size: 1.1em;
   font-family: 'Noto Sans', sans-serif, Verdana;  	
   color: #0D47A1;	
@@ -73,16 +75,21 @@ img {
 }
 
 .marg {
-  margin-top: 100px;
+  margin-right: 5px;  
+  margin-left: 5px;	
+  margin-top: 80px;
   margin-bottom: 30px;
   font-size: 0.9em;
   color: black;
   text-align: justify;
   line-height: 1.1;	
-}
-
+} 
+  
 p {
+  margin-right: 5px; 
+  margin-left: 5px; 	
   margin-bottom: 30px;
+  margin-top: 8px;    
   font-size: 0.9em;
   color: black;
   text-align: justify;
