@@ -263,7 +263,7 @@ img {
 .marg {
   margin-right: 10px;  
   margin-left: 10px;	
-  margin-top: 80px;
+  margin-top: 70px;
   margin-bottom: 30px;
   font-size: 1.2em;
   color: black;
@@ -275,7 +275,7 @@ p {
   margin-right: 10px; 
   margin-left: 10px; 	
   margin-bottom: 30px;
-  margin-top: 8px;    
+  margin-top: 6px;    
   font-size: 1.2em;
   color: black;
   text-align: justify;
@@ -287,7 +287,7 @@ p a:hover {
 }
 
 footer {
-  font-size: 0.8em; 
+  font-size: 0.9em; 
   text-align: center;	
   margin-bottom: 12px;
   margin: 50px 12px 12px 15px;
