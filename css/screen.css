@@ -48,7 +48,7 @@ h1 { /* Golden Section Modular Scale */
 span {
   margin-top: 30px;
   margin-left: 12px;  
-  font-size: 2.4em;
+  font-size: 2.2em;
   font-family: 'Noto Sans', sans-serif, Verdana;  	
   color: #0D47A1;	
   cursor: pointer;
@@ -80,10 +80,11 @@ img {
   margin-left: 12px;	
   margin-top: 100px;
   margin-bottom: 30px;
-  font-size: 1.4em;
+  font-size: 1.3em;
   color: black;
   text-align: justify;
   line-height: 1.1;	
+  font-family: 'Noto Sans', sans-serif, Verdana;
 } 
 
 p {
@@ -91,10 +92,11 @@ p {
   margin-left: 12px; 	
   margin-bottom: 30px;
   margin-top: 8px;    
-  font-size: 1.4em;
+  font-size: 1.3em;
   color: black;
   text-align: justify;
   line-height: 1.1;    
+  font-family: 'Noto Sans', sans-serif, Verdana;
 }
 
 p a:hover {
@@ -102,10 +104,11 @@ p a:hover {
 }
 
 footer {
-  font-size: 0.8em; 
+  font-size: 0.6em; 
   text-align: center;	
   margin-bottom: 12px;
   margin: 50px 12px 12px 15px;
+  font-family: 'Noto Sans', sans-serif, Verdana;
 }
 
 #link_a {
@@ -265,10 +268,11 @@ img {
   margin-left: 10px;	
   margin-top: 70px;
   margin-bottom: 30px;
-  font-size: 1.2em;
+  font-size: 1.1em;
   color: black;
   text-align: justify;
   line-height: 1.1;	
+  font-family: 'Noto Sans', sans-serif, Verdana;
 } 
 
 p {
@@ -276,10 +280,11 @@ p {
   margin-left: 10px; 	
   margin-bottom: 30px;
   margin-top: 6px;    
-  font-size: 1.2em;
+  font-size: 1.1em;
   color: black;
   text-align: justify;
-  line-height: 1.1;    
+  line-height: 1.1; 
+  font-family: 'Noto Sans', sans-serif, Verdana;  	
 }
 
 p a:hover {
@@ -287,10 +292,11 @@ p a:hover {
 }
 
 footer {
-  font-size: 0.9em; 
+  font-size: 0.7em; 
   text-align: center;	
   margin-bottom: 12px;
   margin: 50px 12px 12px 15px;
+  font-family: 'Noto Sans', sans-serif, Verdana;
 }
 
 #link_a {
@@ -382,7 +388,7 @@ h1 { /* Golden Section Modular Scale */
 } 
 
 .snav {
-  height: 50%;
+  height: 60%;
   width: 200px;
   position: absolute;
   top: 0;
@@ -437,10 +443,6 @@ img {
   margin-bottom: 25px; 	
 }
 
-.desktop_img {
-  display: fixed;  	
-}
-
 .column {
   padding: 5px;
 }
@@ -450,15 +452,15 @@ img {
   vertical-align: middle;
 }
 
-
 .marg {
   margin: 60px 10px 30px 10px;   
   padding-left: 200px;	
-  font-size: 1em;
+  font-size: 0.9em;
   color: black;
   text-align: justify;
   line-height: 1.1;	  
   position: relative;
+  font-family: 'Noto Sans', sans-serif, Verdana;
 } 
 
 .desktop_size {
@@ -470,10 +472,11 @@ p {
   margin-left: 10px; 	
   margin-bottom: 30px;
   margin-top: 6px;    
-  font-size: 1em;
+  font-size: 0.9em;
   color: black;
   text-align: justify;
-  line-height: 1.1; 
+  line-height: 1.1;
+  font-family: 'Noto Sans', sans-serif, Verdana;  	
 }
 
 p a:hover {
@@ -481,10 +484,11 @@ p a:hover {
 }
 
 footer {
-  font-size: 0.9em; 
+  font-size: 0.7em; 
   text-align: center;	
   margin-bottom: 12px;
   margin: 50px 12px 12px 15px;
+  font-family: 'Noto Sans', sans-serif, Verdana;
 }
 
 #link_a {
