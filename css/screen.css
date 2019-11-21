@@ -382,24 +382,24 @@ h1 { /* Golden Section Modular Scale */
 } 
 
 .snav {
-  height: 100%;
+  height: 50%;
   width: 200px;
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
   background-color: #0D47A1;
   overflow-x: visible;
-  text-align: left;      
+  text-align: left; 
+  float: left;	
 }
 
 .snav a {
-  padding: 10px 3px 3px 20px;
+  padding: 8px 3px 3px 20px;
   text-decoration: none;
   font-family: 'Noto Sans', sans-serif, Verdana;  	
   font-size: 1em;
   color: white;
   display: block;
-
 }
 
 .snav a:hover {
@@ -416,8 +416,7 @@ h1 { /* Golden Section Modular Scale */
 }
 
 span {
-  margin-top: 22px;
-  margin-left: 10px;  
+  margin: 15px 10px 0px 10px;    
   font-size: 1.5em;
   font-family: 'Noto Sans', sans-serif, Verdana;  	
   color: #0D47A1;	
@@ -426,36 +425,51 @@ span {
   visibility: hidden; 
 }
 
-img {
-  width: 500px;
-  height: 320px;	
+img { 
+  margin-top: 160px;   	
+  width: 480px;
+  height: 300px;	
   display: block;
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
   box-shadow: 4px 4px 20px black;
-  margin-bottom: 25px;  
+  margin-bottom: 25px; 	
+}
+
+.desktop_img {
+  display: fixed;  	
 }
 
 .column {
-  padding: 0 4px;
+  float: left;
+  width: 34%;	
+  padding: 5px;
 }
 
 .column img {
-  margin-top: 8px;
+  margin-top: 150px;
   vertical-align: middle;
 }
 
+.row::after {
+  clear: both;
+  display: table;	
+}
+
 .marg {
-  margin-right: 10px;  
-  margin-left: 10px;	
-  margin-top: 70px;
-  margin-bottom: 30px;
+  margin: 60px 10px 30px 10px;   
+  padding-left: 200px;	
   font-size: 1em;
   color: black;
   text-align: justify;
-  line-height: 1.1;	
+  line-height: 1.1;	  
+  position: relative;
 } 
+
+.desktop_size {
+  padding-left: 200px;    	
+}
 
 p {
   margin-right: 10px; 
@@ -465,7 +479,7 @@ p {
   font-size: 1em;
   color: black;
   text-align: justify;
-  line-height: 1.1;    
+  line-height: 1.1; 
 }
 
 p a:hover {
