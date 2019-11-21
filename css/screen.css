@@ -27,7 +27,7 @@ h1 { /* Golden Section Modular Scale */
   padding: 10px 7px 7px 30px;
   text-decoration: none;
   font-family: 'Noto Sans', sans-serif, Verdana;  	
-  font-size: 1.8em;
+  font-size: 1.6em;
   color: white;
   display: block;
   transition: 0.3s;
@@ -426,7 +426,7 @@ span {
 }
 
 img { 
-  margin-top: 160px;   	
+  margin-top: 15px;   	
   width: 480px;
   height: 300px;	
   display: block;
@@ -442,20 +442,14 @@ img {
 }
 
 .column {
-  float: left;
-  width: 34%;	
   padding: 5px;
 }
 
 .column img {
-  margin-top: 150px;
+  margin-top: 10px;
   vertical-align: middle;
 }
 
-.row::after {
-  clear: both;
-  display: table;	
-}
 
 .marg {
   margin: 60px 10px 30px 10px;   
