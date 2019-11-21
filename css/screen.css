@@ -5,8 +5,9 @@ body {
 h1 { /* Golden Section Modular Scale */
   font-family: 'McLaren', cursive, Verdana; 
   text-align: center; 
-  font-size: 3.1em; 
+  font-size: 5em; 
   color: #2962FF;   
+  margin-top: 15px;  
 } 
 
 .snav {
@@ -23,10 +24,10 @@ h1 { /* Golden Section Modular Scale */
 }
 
 .snav a {
-  padding: 10px 5px 5px 30px;
+  padding: 25px 5px 5px 30px;
   text-decoration: none;
   font-family: 'Noto Sans', sans-serif, Verdana;  	
-  font-size: 0.9em;
+  font-size: 2.6em;
   color: white;
   display: block;
   transition: 0.3s;
@@ -46,8 +47,8 @@ h1 { /* Golden Section Modular Scale */
 
 span {
   margin-top: 30px;
-  margin-left: 5px;  
-  font-size: 1.1em;
+  margin-left: 12px;  
+  font-size: 3em;
   font-family: 'Noto Sans', sans-serif, Verdana;  	
   color: #0D47A1;	
   cursor: pointer;
@@ -74,22 +75,22 @@ img {
 }
 
 .marg {
-  margin-right: 5px;  
-  margin-left: 5px;	
-  margin-top: 80px;
+  margin-right: 12px;  
+  margin-left: 12px;	
+  margin-top: 100px;
   margin-bottom: 30px;
-  font-size: 1em;
+  font-size: 1.4em;
   color: black;
   text-align: justify;
   line-height: 1.1;	
 } 
 
 p {
-  margin-right: 5px; 
-  margin-left: 5px; 	
+  margin-right: 12px; 
+  margin-left: 12px; 	
   margin-bottom: 30px;
   margin-top: 8px;    
-  font-size: 1em;
+  font-size: 1.4em;
   color: black;
   text-align: justify;
   line-height: 1.1;    
