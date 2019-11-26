@@ -375,6 +375,10 @@ input, #shipping, #button {
   width: 5%;
   line-height: 1.66em;
 }
+footer {
+	font-size: .7em;
+	text-align: center;
+)
 }
 
 /*Desktop size Media query*/
@@ -568,3 +572,4 @@ input, #shipping, #button {
   line-height: 1.66em;
 }    	
 }
+
