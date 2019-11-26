@@ -9,3 +9,14 @@ function closeNav() {
 
 // Get the elements with class="column"
 var elements = document.getElementsByClassName("column");
+
+function validateForm() {
+  var x = document.forms["form"]["address"].value;
+  if (x=="") {
+	alert("Please enter an address.");
+	return false;
+  }
+  if (x!="") {
+	  alert("Thank you! Your order has been placed.");
+  }
+}
