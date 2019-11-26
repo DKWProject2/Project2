@@ -1,6 +1,6 @@
 /* for side nav that pops out */
 function openNav() {
-  document.getElementById("sidenav").style.width = "200px";
+  document.getElementById("sidenav").style.width = "340px";
 }
 
 function closeNav() {
@@ -8,6 +8,7 @@ function closeNav() {
 }
 
 // Get the elements with class="column"
+
 var elements = document.getElementsByClassName("column");
 
 function validateForm() {
@@ -20,3 +21,4 @@ function validateForm() {
 	  alert("Thank you! Your order has been placed.");
   }
 }
+
